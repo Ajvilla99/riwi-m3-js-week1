@@ -45,7 +45,7 @@ Es un proyecto para mensajes interactivos, el cual mostrara un mensaje dependien
 Es una funcion que se ejecutara cuando se le de click al boton agregar usuario, la cual pedira datos al usuario tales como nombre y edad.
 ```
 
-## TECNOLOGIAS USADAS
+## Tecnologias usadas
 
     - HTML
     - CSS
