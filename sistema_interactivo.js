@@ -12,7 +12,7 @@ const add_user = () => {
     // Validaciones y muestra el mensaje
     if (isNaN(age)) {
         console.error('Error: Por favor, ingresa una edad válida en números.')
-    } else if (!isNaN(user_age) && user_age < 18) {
+    } else if (user_age < 18) {
         alert(`Hola ${user_name}, eres menor de edad. ¡Sigue aprendiendo y disfrutando del código!`)
     } else {
         alert(`Hola ${user_name}, eres mayor de edad. ¡Prepárate para grandes oportunidades en el mundo de la programación!.`)
@@ -34,6 +34,6 @@ const add_user = () => {
 
     // Agregar al cuerpo de la tabla
     tbody.appendChild(row);
-    
+
     console.log(users);
 }
