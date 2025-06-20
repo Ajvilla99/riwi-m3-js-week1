@@ -1,6 +1,6 @@
 ### SISTEMA INTERACTIVO DE MENSAJES
 
-![alt text](view_proyect.png)
+![alt text](./assets/view_proyect.png)
 
 ```
 Es un proyecto para mensajes interactivos, el cual mostrara un mensaje dependiendo de la edad del usuario y validara esos datos y almacenara para mostrarlos en pantalla.
