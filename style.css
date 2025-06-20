@@ -2,7 +2,6 @@ body {
     background-color: #bebebe;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     box-sizing: border-box;
     font-family: "Bricolage Grotesque", sans-serif;
@@ -16,11 +15,12 @@ body {
     width: 100%;
     text-align: center;
     text-transform: uppercase;
+    padding: 30px;
 }
-
-.input_search {
-    padding: 10px;
-    border: none;
+.table_title h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #242424;
 }
 
 .btn_add {
@@ -40,7 +40,7 @@ body {
 .table_interactive {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 .table_head {
